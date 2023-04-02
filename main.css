@@ -1,0 +1,135 @@
+css
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #333;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+color: #f9c312;
+}
+
+.navigation,
+.mobile-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navigation a,
+.mobile-nav a {
+  margin-left: 1rem;
+  color: #fff;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+}
+
+/* Mobile navigation */
+.mobile-nav {
+  display: none;
+}
+
+/* Main section */
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #222;
+  color: #fff;
+}
+
+.main h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem; 
+  text-align: center;
+}
+
+.main span {
+  color: #f9c312;
+}
+
+.main h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.main-btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: #f9c312;
+  border-radius: 5px;
+  font-size: 1rem;
+ 
+  
+}
+
+.social-icons {
+  display: flex;
+  margin-top: 1rem; 
+  text-align: center;
+}
+
+.Icon {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-left: 5.3rem;
+  color: #ffffff;
+   }
+
+/* About Me section */
+.AboutMe {
+  padding: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.aboutMe-p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.strong{
+  background-color: #f9c312;
+  text-align: center;
+
+}
+.main-btn {
+  position: absolute;
+  
+  left: 50%;
+  transform: translate(-50%, 80%);
+}

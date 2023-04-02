@@ -1,0 +1,134 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" href="images/websiteicon.ico" type="image/x-icon">
+  <title>oune art</title>
+</head>
+<body>
+
+  <header>
+      <a href="#Sop" class="logo">oune  art </a>
+      <nav class="navigation">
+          <a href="#AboutMe">About Me</a>
+        
+          <a href="#Contact">Contact Me</a>
+          
+      </nav>
+      <button class="hamburger">
+          <div class="bar"></div>
+
+      </button>
+
+  </header>
+
+  <nav class="mobile-nav">
+      <a href="#AboutMe" class="mobile-navB">About Me</a>
+      
+      <a href="#Contact" class="mobile-navB">Contact Me</a>
+      
+  </nav>
+
+
+  <section class="main" id="oune-art">
+      <div>
+          <h2>Welcome to <br><span>oune art Website</span></h2>
+          <h3>web developer, Programmer, Content creator.</h3>
+          <a href="#AboutMe" class="main-btn">Who am i ? </a>
+
+          <div class="social-icons">
+              <a target="_blank" href="https://www.tiktok.com/@oune_art" class="Icon"><i class="fa-brands fa-tiktok"></i></a>
+              <a target="_blank" href="https://www.instagram.com/oune_art/" class="Icon"><i class="fa-brands fa-instagram"></i></a>
+              <a target="_blank" href="https://discord.gg/xrbNZzSM" class="Icon"><i class="fa-brands fa-discord"></i></a>
+              <a target="_blank" href="https://www.twitter.com/c/oune_art" class="Icon"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+      </div>
+
+  </section>
+
+  <section class="AboutMe" id="AboutMe">
+      <h2 class="title">About Me</h2>
+
+      <p class="aboutMe-p">I am Adam and I am called oune-art
+        I love programming and I want to reach my dreams and aspirations through it
+         My dream is to create a community to teach programming to all people.
+         <br>
+         <br>
+         I loved programming since I was young. 
+         <br>I wished to become that person who carries a computer and writes codes,
+         <br> then that code turns into a result, 
+         <br>and now I am achieving this dream, but I am still in its infancy.
+         <br>
+         <br>
+         <br>
+         
+         I hope to become a professional programmer or a teacher of informatics
+          and help many people to enter and explore this field and achieve their dreams as well.
+           I am really still at the beginning of realizing my dream as I do not understand many terminologies in this field,
+           but with continuity and will I will achieve everything  Be safe
+         
+          
+          
+          <a href="https://www.instagram.com/@oune_art">oue art</a> .
+      </p>
+
+  </section>
+
+
+        
+  <section class="Contact" id="Contact">
+
+     
+
+      <div class="content">
+          <div class="C-Card">
+              <div class="gameInfo">
+                  <strong class="Contact-title">
+                      <span>adamsaadoune1@gmail.com</span>
+                  </strong>
+              </div>
+          </div>
+      </div>
+
+  </section>
+
+  <footer class="footer">
+      <p class="footer-title">Copyrights @ <span>oune-art</span></p>
+      <div class="social-icons">
+          <a target="_blank" href="https://www.twitter.com/c/oune_art" class="Icon"><i class="fa-brands fa-twitter"></i></a>
+          <a target="_blank" href="https://www.tiktok.com/@oune_art" class="Icon"><i class="fa-brands fa-tiktok"></i></a>
+          <a target="_blank" href="https://www.instagram.com/oune_art/" class="Icon"><i class="fa-brands fa-instagram"></i></a>
+          <a target="_blank" href="https://discord.gg/7zcaPjtpJb" class="Icon"><i class="fa-brands fa-discord"></i></a>
+
+      </div>
+     
+  </footer>
+
+ 
+  <script>
+
+      const menu_btn = document.querySelector('.hamburger');
+      const mobile_menu = document.querySelector('.mobile-nav');
+
+
+
+      menu_btn.addEventListener('click', function () {
+          menu_btn.classList.toggle('is-active')
+          mobile_menu.classList.toggle('is-active')
+      })
+
+      document.querySelectorAll('.mobile-navB').forEach(item => {
+          item.addEventListener('click', event => {
+              menu_btn.classList.toggle('is-active')
+              mobile_menu.classList.toggle('is-active')
+          })
+      })
+      
+ 
+
+  </script>
+
+
+</body></html>
